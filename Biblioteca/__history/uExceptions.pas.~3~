@@ -1,0 +1,10 @@
+unit uExceptions;
+
+interface
+ uses SysUtils;
+
+  type ETrucoException = class(Exception);
+
+implementation
+
+end.

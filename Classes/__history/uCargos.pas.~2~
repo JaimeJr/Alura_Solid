@@ -1,0 +1,9 @@
+unit uCargos;
+
+interface
+
+  type tpCargos = {}
+
+implementation
+
+end.

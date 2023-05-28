@@ -1,0 +1,12 @@
+unit uCargos;
+
+interface
+
+  type tpCargos = (ASSISTENTE,
+	ANALISTA,
+	ESPECIALISTA,
+	GERENTE;)
+
+implementation
+
+end.

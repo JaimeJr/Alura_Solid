@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/20 12:33:40.000.326,C:\Users\jaime\Documents\_Delphi\Solid\Solid.dproj=C:\Users\jaime\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/20 12:40:33.000.981,=C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/20 12:40:47.000.554,C:\Users\jaime\Documents\_Delphi\Solid\Classes\Funcionario.pas=C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/20 12:49:36.000.124,C:\Users\jaime\Documents\_Delphi\Solid\Classes\uFuncionario.pas=C:\Users\jaime\Documents\_Delphi\Solid\Classes\Funcionario.pas</Transaction>
+    <Transaction>2023/05/20 12:50:22.000.307,=C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/20 12:50:32.000.918,C:\Users\jaime\Documents\_Delphi\Solid\Classes\uCargos.pas=C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/20 13:09:17.000.880,=C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/20 13:09:33.000.769,C:\Users\jaime\Documents\_Delphi\Solid\Unit1.pas=C:\Users\jaime\Documents\_Delphi\Solid\Biblioteca\uExceptions.pas</Transaction>
+    <Transaction>2023/05/27 11:29:51.000.272,=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/27 11:30:08.000.875,C:\Users\jaime\Documents\_Solid\Unit1.pas=C:\Users\jaime\Documents\_Solid\Service\ReajusteService.pas</Transaction>
+    <Transaction>2023/05/28 12:52:48.350,=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 12:53:00.412,C:\Users\jaime\Documents\_Solid\Service\ValidacaoPercentualReajuste.pas=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 12:57:09.996,=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 12:57:33.747,C:\Users\jaime\Documents\_Solid\Service\ValidacaoMesesReajuste.pas=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 12:59:42.639,=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+    <Transaction>2023/05/28 13:00:09.149,C:\Users\jaime\Documents\_Solid\Interfaces\uiValidacaoReajuste.pas=C:\Users\jaime\Documents\_Solid\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

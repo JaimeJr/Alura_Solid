@@ -1,0 +1,11 @@
+unit Funcionario;
+
+interface
+
+  type TFuncionario = class
+
+  end;
+
+implementation
+
+end.

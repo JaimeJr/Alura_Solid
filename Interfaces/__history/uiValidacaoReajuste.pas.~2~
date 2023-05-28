@@ -1,0 +1,9 @@
+unit uiValidacaoReajuste;
+
+interface
+  type TValidacaoReajuste = interface
+
+  end;
+implementation
+
+end.

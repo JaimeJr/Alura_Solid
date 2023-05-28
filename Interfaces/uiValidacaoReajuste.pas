@@ -1,0 +1,12 @@
+unit uiValidacaoReajuste;
+
+interface
+  uses uFuncionario;
+
+  type IValidacaoReajuste = interface
+  ['{A16E9428-E310-4251-B03E-C4098713F4D9}']
+    procedure validar(funcionario : TFuncionario ; valorAumento : Extended);
+  end;
+implementation
+
+end.

@@ -1,0 +1,26 @@
+unit ValidacaoPercentualReajuste;
+
+interface
+  uses uFuncionario, uExceptions;
+
+  type TValidacaoPercentualReajuste = class
+    procedure validar(funcionario : TFuncionario ; valorAumento : Extended);
+  end;
+implementation
+
+{ TValidacaoPercentualReajuste }
+
+procedure TValidacaoPercentualReajuste.validar(funcionario: TFuncionario; valorAumento: Extended);
+var
+  percentualReajuste,
+  salarioAtual,
+  salarioReajustado: Currency;
+begin
+  salarioAtual := funcionario.Salario;
+  percentualReajuste := valorAumento / salarioAtual;
+
+  if percentualReajuste > 0.4 then
+    raise EReajusteSalarioExceptions.Create('Reajuste nao pode ser superior a 40% do salario!');
+end;
+
+end.

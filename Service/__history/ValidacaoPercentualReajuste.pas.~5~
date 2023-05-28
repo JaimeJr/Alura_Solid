@@ -1,0 +1,11 @@
+unit ValidacaoPercentualReajuste;
+
+interface
+  uses uFuncionario;
+
+  type TValidacaoPercentualReajuste = class
+    procedure validar(funcionario : TFuncionario ; aumento : Extended);
+  end;
+implementation
+
+end.

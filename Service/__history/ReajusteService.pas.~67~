@@ -1,0 +1,44 @@
+unit ReajusteService;
+
+interface
+  uses uFuncionario, uiValidacaoReajuste, uExceptions, DateUtils, SysUtils, System.Generics.Collections;
+
+  type TReajusteService = class
+    private
+      FValidacoes: TList<IValidacaoReajuste>;
+    public
+      procedure reajustearSalario(funcionario : TFuncionario; valorAumento : Extended);
+
+      constructor Create(validacoesReajuste : TList<IValidacaoReajuste>);
+  end;
+implementation
+
+{ TReajusteService }
+
+constructor TReajusteService.Create(
+  validacoesReajuste: TList<IValidacaoReajuste>);
+begin
+  FValidacoes := validacoesReajuste;
+end;
+
+procedure TReajusteService.reajustearSalario(funcionario: TFuncionario;
+  valorAumento: Extended);
+var
+  percentualReajuste,
+  salarioAtual,
+  salarioReajustado: Currency;
+
+  validacao : IValidacaoReajuste;
+begin
+  salarioAtual := funcionario.Salario;
+
+  for validacao in FValidacoes do
+    validacao.validar(funcionario, valorAumento);
+
+  percentualReajuste := valorAumento / salarioAtual;
+
+  salarioReajustado := salarioAtual + valorAumento;
+  funcionario.atualizarSalario(salarioReajustado);
+end;
+
+end.

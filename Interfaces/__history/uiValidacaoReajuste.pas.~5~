@@ -1,0 +1,11 @@
+unit uiValidacaoReajuste;
+
+interface
+  type TValidacaoReajuste = interface
+  ['{A16E9428-E310-4251-B03E-C4098713F4D9}']
+    public
+
+  end;
+implementation
+
+end.
